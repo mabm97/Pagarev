@@ -1,0 +1,250 @@
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:85
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(21): UsuarioDAO->ventasRecientesXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 85
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:108
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(26): UsuarioDAO->ventasPendientesXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 108
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:133
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(31): UsuarioDAO->contarVentasPendientesXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 133
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:193
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(46): UsuarioDAO->contarVentasTotalesXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 193
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:153
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(36): UsuarioDAO->contarVentasPagadasXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 153
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:173
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(41): UsuarioDAO->contarProductosXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 173
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:213
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(51): UsuarioDAO->verProductoXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 213
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:237
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(56): UsuarioDAO->ventasXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 237
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:261
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(61): UsuarioDAO->verVentasPagadasXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 261
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:43:49 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:213
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(51): UsuarioDAO->verProductoXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 213
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:85
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(21): UsuarioDAO->ventasRecientesXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 85
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:173
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(41): UsuarioDAO->contarProductosXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 173
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:153
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(36): UsuarioDAO->contarVentasPagadasXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 153
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:108
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(26): UsuarioDAO->ventasPendientesXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 108
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:133
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(31): UsuarioDAO->contarVentasPendientesXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 133
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:193
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(46): UsuarioDAO->contarVentasTotalesXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 193
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:237
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(56): UsuarioDAO->ventasXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 237
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:261
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(61): UsuarioDAO->verVentasPagadasXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 261
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:213
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(51): UsuarioDAO->verProductoXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 213
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:56:44 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:213
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(51): UsuarioDAO->verProductoXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 213
+[17-Feb-2019 10:56:46 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:56:57 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:56:57 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:47
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(12): UsuarioDAO->login(Array)
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 47
+[17-Feb-2019 10:57:34 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:57:34 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:47
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(12): UsuarioDAO->login(Array)
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 47
+[17-Feb-2019 10:57:38 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:57:38 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:47
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(12): UsuarioDAO->login(Array)
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 47
+[17-Feb-2019 10:57:38 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:57:38 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:47
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(12): UsuarioDAO->login(Array)
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 47
+[17-Feb-2019 10:57:38 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:57:38 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:47
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(12): UsuarioDAO->login(Array)
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 47
+[17-Feb-2019 10:57:39 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:57:39 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:47
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(12): UsuarioDAO->login(Array)
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 47
+[17-Feb-2019 10:57:39 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:57:39 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:47
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(12): UsuarioDAO->login(Array)
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 47
+[17-Feb-2019 10:57:39 America/Mexico_city] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'127.0.0.1' (using password: NO) in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/conexion/conexionBD.php on line 28
+[17-Feb-2019 10:57:39 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:47
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(12): UsuarioDAO->login(Array)
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 47
+[20-Feb-2019 14:13:10 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:90
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(21): UsuarioDAO->ventasRecientesXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 90
+[20-Feb-2019 14:13:10 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:113
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(26): UsuarioDAO->ventasPendientesXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 113
+[20-Feb-2019 14:13:10 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:242
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(56): UsuarioDAO->ventasXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 242
+[20-Feb-2019 14:13:10 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:218
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(51): UsuarioDAO->verProductoXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 218
+[20-Feb-2019 14:13:10 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:266
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(61): UsuarioDAO->verVentasPagadasXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 266
+[20-Feb-2019 14:13:10 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:218
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(51): UsuarioDAO->verProductoXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 218
+[20-Feb-2019 14:28:31 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:113
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(26): UsuarioDAO->ventasPendientesXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 113
+[20-Feb-2019 14:28:31 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:90
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(21): UsuarioDAO->ventasRecientesXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 90
+[20-Feb-2019 14:28:31 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:218
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(51): UsuarioDAO->verProductoXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 218
+[20-Feb-2019 14:28:31 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:266
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(61): UsuarioDAO->verVentasPagadasXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 266
+[20-Feb-2019 14:28:31 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:242
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(56): UsuarioDAO->ventasXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 242
+[20-Feb-2019 14:28:31 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:218
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(51): UsuarioDAO->verProductoXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 218
+[20-Feb-2019 14:39:52 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:218
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(51): UsuarioDAO->verProductoXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 218
+[20-Feb-2019 14:39:52 America/Mexico_city] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php:218
+Stack trace:
+#0 /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php(51): UsuarioDAO->verProductoXEmpresa()
+#1 {main}
+  thrown in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 218
+[21-Feb-2019 22:28:46 America/Mexico_city] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 95
+[21-Feb-2019 22:28:46 America/Mexico_city] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 248
+[21-Feb-2019 22:28:46 America/Mexico_city] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 272
+[21-Feb-2019 22:29:19 America/Mexico_city] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 95
+[21-Feb-2019 22:29:43 America/Mexico_city] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 95
+[21-Feb-2019 22:30:25 America/Mexico_city] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 95
+[21-Feb-2019 22:31:37 America/Mexico_city] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/model/usuarioDAO.php on line 95
+[21-Feb-2019 23:32:08 America/Mexico_city] PHP Notice:  Undefined index: opt in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php on line 6
+[21-Feb-2019 23:47:37 America/Mexico_city] PHP Notice:  Undefined index: opt in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php on line 6
+[21-Feb-2019 23:54:52 America/Mexico_city] PHP Notice:  Undefined index: opt in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php on line 6
+[22-Feb-2019 00:18:02 America/Mexico_city] PHP Notice:  Undefined index: opt in /home/u562514642/domains/jaggedmexicans.com/public_html/Pagare/controlador/usuarioControlador.php on line 6
